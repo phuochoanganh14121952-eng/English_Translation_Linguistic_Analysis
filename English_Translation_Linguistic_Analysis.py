@@ -39,7 +39,7 @@ client = genai.Client()
 generation_config = types.GenerateContentConfig(
     temperature=0.1,
 )
-MODEL_NAME = "gemini-2.5-pro"
+MODEL_NAME = "gemini-3.5-flash"
 
 # Khôi phục dữ liệu lịch sử từ tệp cục bộ lên session_state
 saved_history, saved_extracted = load_persistent_history()
