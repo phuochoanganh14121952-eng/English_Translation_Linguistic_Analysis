@@ -1,0 +1,237 @@
+[
+  {
+    "id": "1785280653",
+    "title": "YT_Hotel_check_in.mp4",
+    "file_type": "video/mp4",
+    "media_path": "saved_media\\1785280653_orig.mp4",
+    "summary_en": "John Smith checks in at a hotel for a three-night stay. The front desk agent verifies his reservation and ID, assigns him a room with a city view on the fifth floor, informs him that breakfast is included, and hands over the room key.",
+    "summary_vi": "John Smith thực hiện thủ tục nhận phòng tại khách sạn cho kỳ lưu trú kéo dài ba đêm. Nhân viên lễ tân xác nhận thông tin đặt phòng và giấy tờ tùy thân của anh, sắp xếp phòng hướng thành phố ở tầng năm có bao gồm bữa sáng, sau đó bàn giao chìa khóa phòng.",
+    "chat_history": [],
+    "data": [
+      {
+        "speaker": "Check-in Agent",
+        "english": "Good evening. Welcome to our hotel.",
+        "vietnamese": "Chào buổi tối. Chào mừng quý khách đến với khách sạn của chúng tôi.",
+        "audio_path": "saved_media\\1785280653_chunk_0.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Good evening. I have a reservation.",
+        "vietnamese": "Chào buổi tối. Tôi có đặt phòng trước.",
+        "audio_path": "saved_media\\1785280653_chunk_1.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "May I have your name please?",
+        "vietnamese": "Tôi có thể xin tên của quý khách được không ạ?",
+        "audio_path": "saved_media\\1785280653_chunk_2.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Yes, my name is John Smith.",
+        "vietnamese": "Vâng, tôi tên là John Smith.",
+        "audio_path": "saved_media\\1785280653_chunk_3.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Thank you. Let me check your reservation.",
+        "vietnamese": "Cảm ơn quý khách. Để tôi kiểm tra thông tin đặt phòng của quý khách.",
+        "audio_path": "saved_media\\1785280653_chunk_4.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Sure.",
+        "vietnamese": "Chắc chắn rồi.",
+        "audio_path": "saved_media\\1785280653_chunk_5.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Yes, I found it. You booked a room for three nights.",
+        "vietnamese": "Vâng, tôi đã tìm thấy rồi. Quý khách đã đặt phòng trong ba đêm.",
+        "audio_path": "saved_media\\1785280653_chunk_6.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "That's correct.",
+        "vietnamese": "Đúng vậy.",
+        "audio_path": "saved_media\\1785280653_chunk_7.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "May I see your passport or ID?",
+        "vietnamese": "Tôi có thể xem hộ chiếu hoặc chứng minh thư của quý khách được không?",
+        "audio_path": "saved_media\\1785280653_chunk_8.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Of course. Here it is.",
+        "vietnamese": "Dĩ nhiên rồi. Đây ạ.",
+        "audio_path": "saved_media\\1785280653_chunk_9.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Thank you. Would you like a room with a city view?",
+        "vietnamese": "Cảm ơn quý khách. Quý khách có muốn một căn phòng có tầm nhìn ra thành phố không?",
+        "audio_path": "saved_media\\1785280653_chunk_10.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Yes, that would be great.",
+        "vietnamese": "Vâng, như vậy thì tuyệt quá.",
+        "audio_path": "saved_media\\1785280653_chunk_11.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Breakfast is included with your stay.",
+        "vietnamese": "Bữa sáng đã được bao gồm trong kỳ lưu trú của quý khách.",
+        "audio_path": "saved_media\\1785280653_chunk_12.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "That's good to know.",
+        "vietnamese": "Thật tốt khi biết điều đó.",
+        "audio_path": "saved_media\\1785280653_chunk_13.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Here is your room key. Your room is on the fifth floor.",
+        "vietnamese": "Đây là chìa khóa phòng của quý khách. Phòng của quý khách ở tầng năm.",
+        "audio_path": "saved_media\\1785280653_chunk_14.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Thank you very much.",
+        "vietnamese": "Cảm ơn bạn rất nhiều.",
+        "audio_path": "saved_media\\1785280653_chunk_15.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Enjoy your stay.",
+        "vietnamese": "Chúc quý khách có một kỳ nghỉ vui vẻ.",
+        "audio_path": "saved_media\\1785280653_chunk_16.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Thank you.",
+        "vietnamese": "Cảm ơn bạn.",
+        "audio_path": "saved_media\\1785280653_chunk_17.wav"
+      }
+    ]
+  },
+  {
+    "id": "1785276900",
+    "title": "I Feel Confused  - Easy English Conversation About Feelings (B1 Level) - YouTube.mp4",
+    "file_type": "video/mp4",
+    "media_path": "saved_media\\1785276900_orig.mp4",
+    "summary_en": "A person shares their confusion with a friend because another friend has been acting strange and not replying to messages. The friend advises them to communicate directly and politely instead of overthinking. Encouraged by this advice, they decide to talk to their friend today.",
+    "summary_vi": "Một người chia sẻ sự bối rối của mình với bạn vì một người bạn khác dạo này cư xử lạ lùng và không trả lời tin nhắn. Người bạn khuyên họ nên trò chuyện trực tiếp và lịch sự thay vì suy nghĩ quá nhiều. Được tiếp thêm động lực, họ quyết định sẽ nói chuyện với người bạn đó ngay trong ngày.",
+    "chat_history": [
+      {
+        "role": "user",
+        "content": "Thanks. I feel better now\nCác biến thể câu trên. (Alternatives)"
+      },
+      {
+        "role": "assistant",
+        "content": "Trong ngữ cảnh cuộc hội thoại, Speaker A đang cảm thấy lo lắng, bối rối về mối quan hệ bạn bè và sau khi nhận được lời khuyên từ Speaker B, họ đã cảm thấy nhẹ lòng hơn. \n\nCâu **\"Thanks. I feel better now\"** dịch tự nhiên là: *\"Cảm ơn nhé. Giờ mình thấy nhẹ lòng/khá hơn rồi.\"*\n\nĐể thay thế cho câu này, dưới đây là các biến thể (alternatives) được chia theo các nhóm sắc thái khác nhau để bạn dễ dàng áp dụng trong thực tế:\n\n---\n\n### 1. Nhóm tự nhiên, phổ biến (Thân mật, dùng hàng ngày)\nNhững câu này rất gần gũi, phù hợp nhất để nói với bạn bè giống như trong đoạn hội thoại trên:\n\n*   **\"Thanks, I feel much better now.\"**\n    *   *Ý nghĩa:* Cảm ơn nhé, giờ mình thấy tốt hơn nhiều rồi. (Thêm chữ \"much\" để nhấn mạnh).\n*   **\"Thank you, that makes me feel a lot better.\"**\n    *   *Ý nghĩa:* Cảm ơn bạn, điều đó làm mình thấy dễ chịu hơn nhiều rồi.\n*   **\"Thanks, you've really put my mind at ease.\"**\n    *   *Ý nghĩa:* Cảm ơn nhé, bạn thực sự đã làm mình an tâm/nhẹ lòng rồi. (Cụm từ \"put someone's mind at ease\" rất hay, nghĩa là làm ai đó bớt lo lắng).\n*   **\"Thanks, that helps a lot.\"**\n    *   *Ý nghĩa:* Cảm ơn nhé, điều đó giúp ích cho mình nhiều lắm.\n\n---\n\n### 2. Nhóm nhấn mạnh sự \"nhẹ nhõm, trút bỏ gánh nặng\" (Relief)\nKhi bạn thực sự cảm thấy một sự giải tỏa lớn về mặt tâm lý:\n\n*   **\"Thanks, that’s a huge relief.\"**\n    *   *Ý nghĩa:* Cảm ơn nhé, thật là một sự nhẹ nhõm lớn.\n*   **\"Thanks, I feel like a weight has been lifted.\"**\n    *   *Ý nghĩa:* Cảm ơn. Mình cảm giác như vừa trút bỏ được một gánh nặng vậy.\n*   **\"Thanks, I can breathe a sigh of relief now.\"**\n    *   *Ý nghĩa:* Cảm ơn, giờ thì mình đã có thể thở phào nhẹ nhõm rồi.\n\n---\n\n### 3. Nhóm nhấn mạnh việc \"đầu óc đã thông suốt hơn\" (Clarity)\nKhi lời khuyên của đối phương giúp bạn không còn suy nghĩ rối rắm nữa:\n\n*   **\"Thanks, you really helped me clear my head.\"**\n    *   *Ý nghĩa:* Cảm ơn bạn, bạn thực sự đã giúp đầu óc mình thông suốt/tỉnh táo hơn rồi.\n*   **\"Thanks, I have a better perspective now.\"**\n    *   *Ý nghĩa:* Cảm ơn nhé, giờ mình đã có cái nhìn thông thoáng/tích cực hơn về chuyện này rồi.\n*   **\"Thanks, I’m not as worried anymore.\"**\n    *   *Ý nghĩa:* Cảm ơn nha, mình không còn lo lắng nhiều như trước nữa rồi.\n\n---\n\n### 4. Nhóm ngắn gọn, tinh tế (Short & Casual)\nCách nói nhanh gọn nhưng vẫn đầy đủ sự biết ơn:\n\n*   **\"Thanks, I needed to hear that.\"**\n    *   *Ý nghĩa:* Cảm ơn nhé, mình thực sự cần nghe điều này (vào lúc này).\n*   **\"Thanks, that actually helps.\"**\n    *   *Ý nghĩa:* Cảm ơn nha, điều đó thực sự có ích đấy.\n*   **\"Thanks, I appreciate it.\"**\n    *   *Ý nghĩa:* Cảm ơn nhé, mình rất trân trọng (lời khuyên của bạn).\n\n---\n\n### 💡 Lời khuyên khi lựa chọn:\n*   Nếu bạn muốn nói một cách **tự nhiên nhất với bạn thân**: Hãy dùng **\"Thanks, I feel much better now\"** hoặc **\"Thanks, that helps a lot\"**.\n*   Nếu bạn muốn diễn tả **cảm xúc nhẹ nhõm cực kỳ**: Hãy dùng **\"Thanks, that’s a huge relief\"**."
+      }
+    ],
+    "data": [
+      {
+        "speaker": "Speaker A",
+        "english": "Hey, can I talk to you for a moment of course? What's wrong? I feel confused about something",
+        "vietnamese": "Này, mình có thể nói chuyện với bạn một lát được không? Tất nhiên rồi. Có chuyện gì thế? Mình cảm thấy bối rối về một chuyện.",
+        "audio_path": "saved_media\\1785276900_chunk_0.wav"
+      },
+      {
+        "speaker": "Speaker B",
+        "english": "Tell me maybe I can help",
+        "vietnamese": "Nói cho mình nghe đi, biết đâu mình giúp được gì đó.",
+        "audio_path": "saved_media\\1785276900_chunk_1.wav"
+      },
+      {
+        "speaker": "Speaker A",
+        "english": "My friend is acting strange these days",
+        "vietnamese": "Dạo này bạn của mình cư xử lạ lắm.",
+        "audio_path": "saved_media\\1785276900_chunk_2.wav"
+      },
+      {
+        "speaker": "Speaker B",
+        "english": "What do you mean?",
+        "vietnamese": "Ý bạn là sao?",
+        "audio_path": "saved_media\\1785276900_chunk_3.wav"
+      },
+      {
+        "speaker": "Speaker A",
+        "english": "She doesn't reply to my messages like before",
+        "vietnamese": "Cô ấy không còn trả lời tin nhắn của mình như trước nữa.",
+        "audio_path": "saved_media\\1785276900_chunk_4.wav"
+      },
+      {
+        "speaker": "Speaker B",
+        "english": "Did something happen between you two? No, that's why I'm confused Maybe she is just busy. I",
+        "vietnamese": "Có chuyện gì xảy ra giữa hai bạn à? Không có, thế nên mình mới bối rối. Có lẽ cô ấy bận thôi. Mình...",
+        "audio_path": "saved_media\\1785276900_chunk_5.wav"
+      },
+      {
+        "speaker": "Speaker A",
+        "english": "Thought the same but it feels different",
+        "vietnamese": "Cũng nghĩ thế nhưng cảm giác lần này khác lắm.",
+        "audio_path": "saved_media\\1785276900_chunk_6.wav"
+      },
+      {
+        "speaker": "Speaker B",
+        "english": "Did you try talking to her directly?",
+        "vietnamese": "Bạn đã thử nói chuyện trực tiếp với cô ấy chưa?",
+        "audio_path": "saved_media\\1785276900_chunk_7.wav"
+      },
+      {
+        "speaker": "Speaker A",
+        "english": "Not yet. I'm a little nervous",
+        "vietnamese": "Chưa nữa. Mình hơi lo lắng một chút.",
+        "audio_path": "saved_media\\1785276900_chunk_8.wav"
+      },
+      {
+        "speaker": "Speaker B",
+        "english": "You should ask her politely",
+        "vietnamese": "Bạn nên hỏi cô ấy một cách lịch sự.",
+        "audio_path": "saved_media\\1785276900_chunk_9.wav"
+      },
+      {
+        "speaker": "Speaker A",
+        "english": "Yes, I think that's the best way",
+        "vietnamese": "Ừm, mình nghĩ đó là cách tốt nhất.",
+        "audio_path": "saved_media\\1785276900_chunk_10.wav"
+      },
+      {
+        "speaker": "Speaker B",
+        "english": "Clear communication helps a lot",
+        "vietnamese": "Giao tiếp rõ ràng sẽ giúp ích rất nhiều đấy.",
+        "audio_path": "saved_media\\1785276900_chunk_11.wav"
+      },
+      {
+        "speaker": "Speaker A",
+        "english": "You're right. I'll talk to her today",
+        "vietnamese": "Bạn nói đúng. Mình sẽ nói chuyện với cô ấy hôm nay.",
+        "audio_path": "saved_media\\1785276900_chunk_12.wav"
+      },
+      {
+        "speaker": "Speaker B",
+        "english": "Good. Don't overthink too much",
+        "vietnamese": "Tốt lắm. Đừng suy nghĩ quá nhiều nhé.",
+        "audio_path": "saved_media\\1785276900_chunk_13.wav"
+      },
+      {
+        "speaker": "Speaker A",
+        "english": "Thanks. I feel better now",
+        "vietnamese": "Cảm ơn nhé. Giờ mình thấy nhẹ lòng hơn rồi.",
+        "audio_path": "saved_media\\1785276900_chunk_14.wav"
+      },
+      {
+        "speaker": "Speaker B",
+        "english": "Anytime",
+        "vietnamese": "Bất cứ lúc nào.",
+        "audio_path": "saved_media\\1785276900_chunk_15.wav"
+      }
+    ]
+  }
+]
