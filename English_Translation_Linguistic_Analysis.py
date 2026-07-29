@@ -30,12 +30,28 @@ def save_persistent_history(history, extracted_en_clean):
     except Exception as e:
         st.error(f"Lỗi lưu trữ dữ liệu: {e}")
 
-# 1. Cấu hình giao diện và API ổn định bằng thư viện mới
+# 1. Cấu hình giao diện trang
 st.set_page_config(page_title="English Translation & Linguistic Analysis", layout="wide")
 
-# Khởi tạo Client mới của thư viện google-genai
-client = genai.Client()
-# Khóa thông số sáng tạo thấp nhất để đảm bảo tính nhất quán tuyệt đối
+# 2. Ô nhập Google API Key ở Sidebar
+st.sidebar.title("⚙️ Cấu hình")
+api_key_input = st.sidebar.text_input("🔑 Nhập Google API Key:", type="password", help="Nhập API Key cá nhân từ Google AI Studio để vận hành ứng dụng.")
+
+if not api_key_input.strip():
+    st.sidebar.warning("⚠️ Vui lòng nhập API Key để bắt đầu sử dụng.")
+    st.title("English Translation & Linguistic Analysis")
+    st.caption("Trợ lý chuyên gia hỗ trợ dịch thuật tối ưu, sửa lỗi hệ thống và phân tích cấu trúc ngôn ngữ Anh ngữ chuyên sâu.")
+    st.info("👈 Hãy nhập **Google API Key** ở thanh bên trái (Sidebar) để kích hoạt toàn bộ tính năng của ứng dụng.")
+    st.stop()
+
+# Khởi tạo Client từ API Key người dùng nhập vào
+try:
+    client = genai.Client(api_key=api_key_input.strip())
+except Exception as e:
+    st.sidebar.error(f"Lỗi khởi tạo API Key: {e}")
+    st.stop()
+
+# Cấu hình model
 generation_config = types.GenerateContentConfig(
     temperature=0.1,
 )
@@ -86,6 +102,9 @@ with col_left:
                 col_btn_view, col_btn_del = st.columns([2, 1])
                 with col_btn_view:
                     with st.popover("Xem lại", key=f"popover_view_{i}"):
+                        st.markdown(f"### {item['type']}")
+                        st.markdown(f"**Đoạn văn gốc:** {item['text']}")
+                        st.markdown("---")
                         st.write(item['result'])
                 with col_btn_del:
                     if st.button("Xóa", key=f"del_history_item_{i}"):
@@ -140,32 +159,35 @@ with col_middle:
             - Dịch đoạn văn trong thẻ <EN> sang tiếng Việt mượt mà, tự nhiên và phù hợp nhất với ngữ cảnh đã xác định ở Bước 1.
             """
             with st.spinner("AI đang xác định ngữ cảnh và quét lỗi toàn diện..."):
-                response = client.models.generate_content(
-                    model=MODEL_NAME,
-                    contents=prompt_translation,
-                    config=generation_config
-                )
-                st.info(response.text)
-                
-                match = re.search(r'<EN>(.*?)</EN>', response.text, re.DOTALL)
-                if match:
-                    correct_en_text = match.group(1).strip()
-                    st.session_state.extracted_en_clean = correct_en_text
-                    try:
-                        tts = gTTS(text=correct_en_text, lang='en', tld='com')
-                        audio_bytes = io.BytesIO()
-                        tts.write_to_fp(audio_bytes)
-                        st.success("🔊 Nghe giọng đọc American English đoạn văn chuẩn:")
-                        st.audio(audio_bytes.getvalue(), format='audio/mp3')
-                    except Exception as e:
-                        st.error("Không thể tạo giọng đọc cho đoạn văn này.")
-                
-                st.session_state.history.append({
-                    "type": "Dịch & Sửa lỗi",
-                    "text": text_input,
-                    "result": response.text
-                })
-                save_persistent_history(st.session_state.history, st.session_state.extracted_en_clean)
+                try:
+                    response = client.models.generate_content(
+                        model=MODEL_NAME,
+                        contents=prompt_translation,
+                        config=generation_config
+                    )
+                    st.info(response.text)
+                    
+                    match = re.search(r'<EN>(.*?)</EN>', response.text, re.DOTALL)
+                    if match:
+                        correct_en_text = match.group(1).strip()
+                        st.session_state.extracted_en_clean = correct_en_text
+                        try:
+                            tts = gTTS(text=correct_en_text, lang='en', tld='com')
+                            audio_bytes = io.BytesIO()
+                            tts.write_to_fp(audio_bytes)
+                            st.success("🔊 Nghe giọng đọc American English đoạn văn chuẩn:")
+                            st.audio(audio_bytes.getvalue(), format='audio/mp3')
+                        except Exception as e:
+                            st.error("Không thể tạo giọng đọc cho đoạn văn này.")
+                    
+                    st.session_state.history.append({
+                        "type": "Dịch & Sửa lỗi",
+                        "text": text_input,
+                        "result": response.text
+                    })
+                    save_persistent_history(st.session_state.history, st.session_state.extracted_en_clean)
+                except Exception as err:
+                    st.error(f"Lỗi trong quá trình xử lý AI: {err}")
         else:
             st.warning("Vui lòng nhập đoạn văn tiếng Anh trước khi bấm nút dịch.")
             
@@ -235,70 +257,51 @@ with col_middle:
             Hãy trình bày một cách logic, dễ hiểu, chia rõ các mục gạch đầu dòng khoa học.
             """
             with st.spinner(f"AI đang tiến hành phân tích đoạn văn chuẩn theo {level_name}..."):
-                response = client.models.generate_content(
-                    model=MODEL_NAME,
-                    contents=prompt_analysis,
-                    config=generation_config
-                )
-                st.success(response.text)
-                
-                st.session_state.history.append({
-                    "type": f"Phân tích ({level_name})",
-                    "text": text_to_analyze,
-                    "result": response.text
-                })
-                save_persistent_history(st.session_state.history, st.session_state.extracted_en_clean)
+                try:
+                    response = client.models.generate_content(
+                        model=MODEL_NAME,
+                        contents=prompt_analysis,
+                        config=generation_config
+                    )
+                    st.success(response.text)
+                    
+                    st.session_state.history.append({
+                        "type": f"Phân tích ({level_name})",
+                        "text": text_to_analyze,
+                        "result": response.text
+                    })
+                    save_persistent_history(st.session_state.history, st.session_state.extracted_en_clean)
+                except Exception as err:
+                    st.error(f"Lỗi trong quá trình phân tích: {err}")
         else:
             st.warning("Vui lòng nhập đoạn văn tiếng Anh trước khi bấm nút phân tích.")
 
 # KHUNG PHẢI: AI Companion
 with col_right:
     st.subheader("AI Companion")
-    st.markdown("**💡 Câu hỏi mẫu:**")
-    
-    if text_input.strip():
-        short_text = text_input.strip().split('.')[0]
-        sample_1 = f"Giải thích thêm về cụm từ '{short_text}'"
-        sample_2 = "Tìm các từ đồng nghĩa hoặc cách diễn đạt khác hay hơn cho đoạn văn trên."
-        sample_3 = "Chuyển đoạn văn trên sang dạng văn phong giao tiếp hằng ngày (Casual English)."
-    else:
-        sample_1 = "Làm sao để phân biệt nhanh giữa Danh từ ghép và Cụm động từ trong tiếng Anh?"
-        sample_2 = "Chia sẻ phương pháp luyện nghe nối âm (Connected Speech) hiệu quả tại nhà."
-        sample_3 = "Cách viết số đếm bằng chữ (two) và bằng số (2) trong văn phong trang trọng?"
-
-    if st.button("👉 " + sample_1, key="companion_custom_btn_1"):
-        st.session_state.companion_input_value = sample_1
-        st.rerun()
-    if st.button("👉 " + sample_2, key="companion_custom_btn_2"):
-        st.session_state.companion_input_value = sample_2
-        st.rerun()
-    if st.button("👉 " + sample_3, key="companion_custom_btn_3"):
-        st.session_state.companion_input_value = sample_3
-        st.rerun()
-        
-    st.markdown("---")
     
     chat_input = st.text_area(
-        "Nhập câu hỏi của Boss tại đây:", 
-        value=st.session_state.companion_input_value, 
-        height=130, 
-        placeholder="Gõ câu hỏi hoặc bấm vào câu hỏi mẫu ở trên...",
+        "Nhập câu hỏi tại đây:", 
+        height=180, 
+        placeholder="Gõ câu hỏi để hỏi đáp với AI...",
         key="companion_text_area"
     )
     
-    if chat_input != st.session_state.companion_input_value:
-        st.session_state.companion_input_value = chat_input
-    
     if st.button("Gửi câu hỏi", key="submit_companion_question_btn", use_container_width=True):
-        if st.session_state.companion_input_value.strip():
+        if chat_input.strip():
             with st.spinner("AI đang trả lời..."):
                 current_context = st.session_state.extracted_en_clean if st.session_state.extracted_en_clean else text_input
-                context_payload = f"Đoạn văn đang học: '{current_context}'\n\nCâu hỏi: {st.session_state.companion_input_value}" if current_context.strip() else chat_input
+                context_payload = f"Đoạn văn đang học: '{current_context}'\n\nCâu hỏi: {chat_input}" if current_context.strip() else chat_input
                 
-                response = client.models.generate_content(
-                    model=MODEL_NAME,
-                    contents=context_payload,
-                    config=generation_config
-                )
-                st.markdown("---")
-                st.info(response.text)
+                try:
+                    response = client.models.generate_content(
+                        model=MODEL_NAME,
+                        contents=context_payload,
+                        config=generation_config
+                    )
+                    st.markdown("---")
+                    st.info(response.text)
+                except Exception as err:
+                    st.error(f"Lỗi khi gửi câu hỏi: {err}")
+        else:
+            st.warning("Vui lòng nhập câu hỏi trước khi bấm gửi.")
