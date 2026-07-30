@@ -89,8 +89,8 @@ Trả về duy nhất JSON với số lượng phần tử trong `items` ĐÚNG 
         audio_segment = AudioSegment.from_file(input_path)
 
         for idx, seg in enumerate(raw_segments):
-            start_ms = int(seg["start"] * 1000)
-            end_ms = int(seg["end"] * 1000)
+            start_ms = max(0, int(seg["start"] * 1000) - 100)
+            end_ms = min(len(audio_segment), int(seg["end"] * 1000) + 400)
             
             chunk = audio_segment[start_ms:end_ms]
             chunk_path = os.path.join(temp_dir, f"chunk_{idx}.mp3")
