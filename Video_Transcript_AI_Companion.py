@@ -35,7 +35,8 @@ if uploaded_file:
                 language="en",
                 temperature=0.0,
                 condition_on_previous_text=False,
-                no_speech_threshold=0.3
+                no_speech_threshold=0.1
+                vad_filter=True
             )
             raw_segments = raw_result.get("segments", [])
 
@@ -90,7 +91,7 @@ Trả về duy nhất JSON với số lượng phần tử trong `items` ĐÚNG 
 
         for idx, seg in enumerate(raw_segments):
             start_ms = max(0, int(seg["start"] * 1000) - 100)
-            end_ms = min(len(audio_segment), int(seg["end"] * 1000) + 400)
+            end_ms = int(seg["end"] * 1000)
             
             chunk = audio_segment[start_ms:end_ms]
             chunk_path = os.path.join(temp_dir, f"chunk_{idx}.mp3")
