@@ -347,8 +347,8 @@ if uploaded_file:
                 {transcript_text}
 
                 Nhiệm vụ:
-1. Phân tích nội dung và ngắt lượt nói chính xác khi có sự thay đổi người nói (Turn-taking).
-2. Chỉ gộp các câu liên tiếp nếu CHẮC CHẮN là của CÙNG MỘT NGƯỜI NÓI. Tuyệt đối không gộp lượt thoại của 2 người khác nhau vào chung một segment.
+1. Dựa vào nội dung và ngữ cảnh, hãy tách từng lượt thoại riêng biệt giữa hai người.
+2. TUYỆT ĐỐI KHÔNG gộp câu trả lời của người khác vào cùng một Speaker. Mỗi khi đổi người nói (như hỏi/đáp), BẮT BUỘC phải tạo một Speaker mới (Speaker A, Speaker B).
 3. Tóm tắt nội dung chính bài hội thoại bằng cả tiếng Anh và tiếng Việt.
 
                 Trả về duy nhất JSON dạng:
