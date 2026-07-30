@@ -1,5 +1,6 @@
 import os
 import json
+import re
 import tempfile
 import streamlit as st
 import whisper
@@ -28,37 +29,63 @@ if uploaded_file:
         with open(input_path, "wb") as f:
             f.write(uploaded_file.getbuffer())
 
-        with st.spinner("1/3. Whisper đang phân tách từng câu thoại..."):
+        with st.spinner("1/3. Đang tách chính xác mốc thời gian từng câu..."):
             raw_result = model.transcribe(
                 input_path,
                 language="en",
                 word_timestamps=True,
-                no_speech_threshold=0.6,
                 temperature=0.0
             )
-            raw_segments = raw_result.get("segments", [])
 
-        # Lấy danh sách câu tiếng Anh chuẩn mốc thời gian từ Whisper
-        sentences = [s['text'].strip() for s in raw_segments]
+            # Thuật toán gom từng từ thành câu dựa vào dấu kết thúc câu (. ? !)
+            sentences = []
+            current_words = []
+            
+            for seg in raw_result.get("segments", []):
+                for word_info in seg.get("words", []):
+                    current_words.append(word_info)
+                    word_text = word_info["word"].strip()
+                    # Kiểm tra xem từ có kết thúc bằng dấu câu hay không
+                    if re.search(r'[.?!]$', word_text):
+                        sentence_text = " ".join([w["word"].strip() for w in current_words])
+                        start_time = current_words[0]["start"]
+                        end_time = current_words[-1]["end"]
+                        sentences.append({
+                            "text": sentence_text,
+                            "start": start_time,
+                            "end": end_time
+                        })
+                        current_words = []
+            
+            # Xử lý các từ còn dư nếu không có dấu câu ở cuối
+            if current_words:
+                sentence_text = " ".join([w["word"].strip() for w in current_words])
+                sentences.append({
+                    "text": sentence_text,
+                    "start": current_words[0]["start"],
+                    "end": current_words[-1]["end"]
+                })
 
-        with st.spinner("2/3. Gemini đang dịch thuật và xác định vai nói..."):
+        english_texts = [s["text"] for s in sentences]
+
+        with st.spinner("2/3. Gemini đang xác định vai nói và dịch thuật..."):
             prompt = f"""
-Dưới đây là danh sách các câu thoại theo đúng thứ tự:
-{json.dumps(sentences, ensure_ascii=False, indent=2)}
+Dưới đây là danh sách các câu thoại theo thứ tự:
+{json.dumps(english_texts, ensure_ascii=False, indent=2)}
 
 Nhiệm vụ:
 1. Dịch từng câu sang tiếng Việt.
-2. Gán Speaker A hoặc Speaker B cho từng câu dựa vào ngữ cảnh đối thoại (luân phiên đổi người nói khi có câu hỏi/đáp).
-3. Tóm tắt nội dung bài học.
+2. Gán Speaker A hoặc Speaker B cho từng câu dựa vào ngữ cảnh đối thoại (luân phiên đổi người nói khi câu hỏi/đáp).
+3. Tóm tắt bài học bằng tiếng Anh và tiếng Việt.
 
-Trả về duy nhất JSON với số lượng phần tử trong `items` ĐÚNG BẰNG số lượng câu đầu vào ({len(sentences)} câu):
+Trả về duy nhất JSON với số phần tử trong `items` ĐÚNG BẰNG {len(english_texts)}:
 {{
   "summary_en": "Tóm tắt tiếng Anh",
   "summary_vi": "Tóm tắt tiếng Việt",
   "items": [
     {{
       "speaker": "Speaker A",
-      "english": "Nội dung tiếng Anh câu 1",
+      "english": "Nội dung câu 1",
       "vietnamese": "Dịch tiếng Việt câu 1"
     }}
   ]
@@ -88,18 +115,16 @@ Trả về duy nhất JSON với số lượng phần tử trong `items` ĐÚNG 
 
         audio_segment = AudioSegment.from_file(input_path)
 
-        for idx, seg in enumerate(raw_segments):
-            # Cắt trực tiếp theo mốc thời gian gốc của Whisper (Chắc chắn chuẩn 100%)
-            start_ms = int(seg["start"] * 1000)
-            end_ms = int(seg["end"] * 1000)
+        for idx, sent in enumerate(sentences):
+            start_ms = int(sent["start"] * 1000)
+            end_ms = int(sent["end"] * 1000)
             
             chunk = audio_segment[start_ms:end_ms]
             chunk_path = os.path.join(temp_dir, f"chunk_{idx}.mp3")
             chunk.export(chunk_path, format="mp3")
 
-            # Lấy thông tin dịch từ Gemini tương ứng theo chỉ số idx
             speaker_label = items[idx]["speaker"] if idx < len(items) else f"Speaker {idx+1}"
-            text_en = seg["text"].strip()
+            text_en = sent["text"]
             text_vi = items[idx]["vietnamese"] if idx < len(items) else ""
 
             c1, c2, c3 = st.columns([1.5, 4, 3])
