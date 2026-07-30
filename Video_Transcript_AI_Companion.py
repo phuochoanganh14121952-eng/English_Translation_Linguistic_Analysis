@@ -333,7 +333,9 @@ if uploaded_file:
                     condition_on_previous_text=False,
                     word_timestamps=True,
                     no_speech_threshold=0.6,
-                    temperature=0.0
+                    temperature=0.0,
+                    vad_filter=True,
+                    vad_parameters=dict(min_silence_duration_ms=300),
                 )
                 raw_segments = raw_result.get("segments", [])
 
@@ -345,8 +347,9 @@ if uploaded_file:
                 {transcript_text}
 
                 Nhiệm vụ:
-                1. Gộp các câu thoại liên tiếp của CÙNG MỘT NGƯỜI NÓI (Check-in Agent / Passenger) thành 1 lượt nói.
-                2. Tóm tắt nội dung chính bài hội thoại bằng cả tiếng Anh và tiếng Việt.
+1. Phân tích nội dung và ngắt lượt nói chính xác khi có sự thay đổi người nói (Turn-taking).
+2. Chỉ gộp các câu liên tiếp nếu CHẮC CHẮN là của CÙNG MỘT NGƯỜI NÓI. Tuyệt đối không gộp lượt thoại của 2 người khác nhau vào chung một segment.
+3. Tóm tắt nội dung chính bài hội thoại bằng cả tiếng Anh và tiếng Việt.
 
                 Trả về duy nhất JSON dạng:
                 {{
