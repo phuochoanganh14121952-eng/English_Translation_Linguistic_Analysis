@@ -82,19 +82,19 @@ with st.sidebar:
     if st.session_state['history']:
         for idx, item in enumerate(st.session_state['history']):
             col_title, col_del = st.columns([4, 1])
-            
-            with col_title:
-                if st.button(f"📖 Bài {idx+1}: {item['title']}", key=f"hist_{idx}"):
-                    st.session_state['current_view'] = item
-                    st.session_state['chat_messages'] = item.get('chat_history', [])
-                    st.rerun()
-            
-            with col_del:
-                if st.button("❌", key=f"del_{idx}"):
-                    if st.session_state['current_view'] == item:
-                        st.session_state['current_view'] = None
-                        st.session_state['chat_messages'] = []
-                    
+
+        with col_title:
+            title = item.get('title', str(item)) if isinstance(item, dict) else str(item)
+            if st.button(f"📖 Bài {idx+1}: {title}", key=f"hist_{idx}"):
+                st.session_state['current_view'] = item if isinstance(item, dict) else {}
+                st.session_state['chat_messages'] = item.get('chat_history', []) if isinstance(item, dict) else []
+                st.rerun()
+
+        with col_del:
+            if st.button("❌", key=f"del_{idx}"):
+                if st.session_state.get('current_view') == item:
+                    st.session_state['current_view'] = None
+                    st.session_state['chat_messages'] = []
                     if item.get("media_path") and os.path.exists(item["media_path"]):
                         try:
                             os.remove(item["media_path"])
@@ -138,7 +138,8 @@ if st.session_state['current_view'] is not None:
     
     col_v1, col_v2 = st.columns([3, 1])
     with col_v1:
-        st.info(f"📌 Đang xem bài: **{view_data['title']}**")
+        title_display = view_data.get('title', str(view_data)) if isinstance(view_data, dict) else str(view_data)
+        st.info(f"📌 Đang xem bài: **{title_display}**")
     with col_v2:
         # TẠO FILE ZIP ĐỂ CHIA SẺ
         zip_buffer = io.BytesIO()
@@ -175,7 +176,7 @@ if st.session_state['current_view'] is not None:
         st.download_button(
             label="📦 Export chia sẻ Bài học (.zip)",
             data=zip_buffer.getvalue(),
-            file_name=f"{view_data['title']}_package.zip",
+            file_name=f"{view_data.get('title', 'lesson') if isinstance(view_data, dict) else 'lesson'}_package.zip",
             mime="application/zip"
         )
 
@@ -412,8 +413,10 @@ if uploaded_file:
                 "data": final_data,
                 "chat_history": []
             }
-            st.session_state['history'].append(new_item)
-            st.session_state['current_view'] = new_item
-            
-            save_history_to_disk(st.session_state['history'])
-            st.rerun()
+            if not isinstance(st.session_state['history'], list):
+                st.session_state['history'] = []
+        st.session_state['history'].append(new_item)
+        st.session_state['current_view'] = new_item
+
+        save_history_to_disk(st.session_state['history'])
+        st.rerun()

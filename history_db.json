@@ -1,25 +1,401 @@
-{
-    "history": [
-        {
-            "type": "Dịch & Sửa lỗi",
-            "text": "Here's my feedback on Sylvia's first day at FD:\nShe was a little slow, as it's her first day in the front.\n",
-            "result": "Dưới đây là kết quả phân tích, tối ưu hóa và dịch thuật đoạn văn bản theo đúng các yêu cầu của bạn:\n\n### BƯỚC 1: XÁC ĐỊNH VÀ PHÂN TÍCH NGỮ CẢNH\n*   **Thể loại:** Email công việc (Báo cáo tiến độ/quá trình làm việc của nhân viên mới gửi cho cấp trên/sếp).\n*   **Sắc thái văn phong:** Trang trọng, chuyên nghiệp và mang tính xây dựng (Semi-formal to Formal). Trong môi trường công sở, khi nhận xét về hiệu suất của nhân viên mới cho sếp, cần tránh các từ ngữ quá suồng sã hoặc mang tính tiêu cực trực diện (như \"slow\"), đồng thời cần viết rõ ràng các thuật ngữ viết tắt để đảm bảo tính chuyên nghiệp.\n\n---\n\n### BƯỚC 2: ĐÁNH GIÁ CHUẨN XÁC VÀ NHẤT QUÁN\n*   **Đánh giá chung:** **[SAI / CẦN TỐI ƯU]**\n*   **Lý do:** \n    *   Sử dụng từ viết tắt \"FD\" không được làm rõ (nên viết đầy đủ là \"Front Desk\" trước khi viết tắt).\n    *   Cụm từ \"Here's\" (viết tắt của \"Here is\") và \"it's\" (viết tắt của \"it is\") mang sắc thái quá thân mật (informal), không phù hợp với email gửi cho sếp.\n    *   Nhận xét \"She was a little slow\" (Cô ấy hơi chậm) mang sắc thái hơi tiêu cực và thiếu tính xây dựng trong văn phong công sở. Nên thay bằng cách diễn đạt chuyên nghiệp hơn như \"a bit slow to adapt\" (hơi chậm trong việc thích nghi) hoặc \"working at a slightly slower pace\" (làm việc với tốc độ hơi chậm một chút).\n    *   Lỗi không nhất quán về thì (Tense inconsistency): \"She was...\" (quá khứ) nhưng vế sau lại dùng \"it's her first day\" (hiện tại). Vì đang báo cáo về ngày làm việc đã qua, toàn bộ câu nên chia ở thì quá khứ.\n    *   Cụm từ \"in the front\" khá mơ hồ và khẩu ngữ. Nên sửa thành \"at the front desk\" (tại quầy lễ tân).\n\n---\n\n### BƯỚC 3: CHI TIẾT LỖI SAI VÀ SỬA LỖI\n1.  **Vị trí:** \"Here's my feedback...\"\n    *   *Lý do:* Dùng từ viết tắt \"Here's\" quá thân mật cho email báo cáo gửi sếp.\n    *   *Sửa thành:* \"Below is my feedback...\" hoặc \"Please find below my feedback...\"\n2.  **Vị trí:** \"...at FD:\"\n    *   *Lý do:* Viết tắt \"FD\" cần được làm rõ trong văn bản báo cáo để đảm bảo tính chuyên nghiệp.\n    *   *Sửa thành:* \"...at the Front Desk (FD):\"\n3.  **Vị trí:** \"She was a little slow...\"\n    *   *Lý do:* Cách diễn đạt trực diện, dễ gây cảm giác tiêu cực về nhân viên mới.\n    *   *Sửa thành:* \"She was a bit slow to adapt...\" (Cô ấy hơi chậm trong việc thích nghi...) hoặc \"She worked at a slightly slower pace...\" (Cô ấy làm việc với tốc độ hơi chậm một chút...) để mang tính xây dựng hơn.\n4.  **Vị trí:** \"...as it's her first day...\"\n    *   *Lý do:* Sai thì (phải dùng quá khứ \"it was\" thay vì \"it's\" để đồng nhất với \"was\" ở vế trước) và tránh viết tắt \"it's\".\n    *   *Sửa thành:* \"...as it was her first day...\"\n5.  **Vị trí:** \"...in the front.\"\n    *   *Lý do:* Cụm từ mơ hồ, không chuẩn trang trọng.\n    *   *Sửa thành:* \"...at the front desk.\"\n\n---\n\n### BƯỚC 4: XUẤT ĐOẠN VĂN TIẾNG ANH CHUẨN\n<EN>Below is my feedback on Sylvia's first day at the Front Desk (FD):\nShe was a bit slow to adapt, which is understandable as it was her first day at the front desk.</EN>\n\n---\n\n### BƯỚC 5: DỊCH THUẬT\nDưới đây là phản hồi của tôi về ngày làm việc đầu tiên của Sylvia tại bộ phận Lễ tân (FD):\nCô ấy còn hơi chậm trong việc thích nghi với nhịp độ công việc, điều này là hoàn toàn dễ hiểu vì đây mới là ngày đầu tiên cô ấy làm việc tại quầy lễ tân."
-        },
-        {
-            "type": "Phân tích (Level 1)",
-            "text": "Below is my feedback on Sylvia's first day at the Front Desk (FD):\nShe was a bit slow to adapt, which is understandable as it was her first day at the front desk.",
-            "result": "Chào bạn, với vai trò là một chuyên gia ngôn ngữ học, tôi xin phân tích đoạn văn tối ưu theo đúng cấp độ Level 1.\n\nDưới đây là phân tích chi tiết về mặt ngôn ngữ học cho đoạn văn:\n*\"Below is my feedback on Sylvia's first day at the Front Desk (FD):\nShe was a bit slow to adapt, which is understandable as it was her first day at the front desk.\"*\n\n---\n\n### 1. Phân tích Cấu trúc câu (Sentence Structure)\n\nĐoạn văn gồm 2 câu chính với các cấu trúc ngữ pháp cụ thể như sau:\n\n*   **Câu 1: \"Below is my feedback on Sylvia's first day at the Front Desk (FD):\"**\n    *   **Cấu trúc:** Đây là cấu trúc đảo ngữ (Inversion) với trạng từ chỉ vị trí đứng đầu câu nhằm nhấn mạnh thông tin.\n    *   **Thành phần chi tiết:**\n        *   *Trạng từ chỉ vị trí (Adverbial of place):* \"Below\" (Dưới đây) đóng vai trò làm bổ ngữ đứng đầu.\n        *   *Động từ liên kết (Linking Verb - V):* \"is\" (là).\n        *   *Chủ ngữ thực sự (Subject - S):* \"my feedback on Sylvia's first day at the Front Desk (FD)\" (toàn bộ cụm danh từ này đóng vai trò làm chủ ngữ). Trong đó, danh từ trung tâm (Head noun) là \"feedback\", các thành phần còn lại là cụm giới từ bổ nghĩa cho danh từ này.\n\n*   **Câu 2: \"She was a bit slow to adapt, which is understandable as it was her first day at the front desk.\"**\n    *   **Cấu trúc:** Đây là một câu phức - phức hợp (Complex-compound sentence) bao gồm một mệnh đề chính và hai mệnh đề phụ.\n    *   **Mệnh đề chính (Main Clause):** *\"She was a bit slow to adapt\"*\n        *   *Chủ ngữ (S):* \"She\" (Cô ấy).\n        *   *Động từ liên kết (V):* \"was\" (thì/quá khứ của to be).\n        *   *Bổ ngữ của chủ ngữ (Subject Complement):* \"a bit slow to adapt\" (Cụm tính từ, trong đó \"slow\" là tính từ chính, \"a bit\" là trạng từ giảm nhẹ mức độ, và \"to adapt\" là động từ nguyên mẫu có \"to\" bổ nghĩa cho tính từ \"slow\").\n    *   **Mệnh đề phụ quan hệ không giới hạn (Non-defining Relative Clause):** *\", which is understandable\"*\n        *   *Đại từ quan hệ (S):* \"which\" (thay thế cho toàn bộ ý của mệnh đề chính phía trước: việc cô ấy thích nghi hơi chậm).\n        *   *Động từ (V):* \"is\" (là).\n        *   *Bổ ngữ (Complement):* \"understandable\" (tính từ: có thể hiểu/thông cảm được).\n    *   **Mệnh đề phụ chỉ nguyên nhân (Adverbial Clause of Reason):** *\"as it was her first day at the front desk\"*\n        *   *Liên từ (Conjunction):* \"as\" (bởi vì).\n        *   *Chủ ngữ (S):* \"it\" (chủ ngữ giả định/tình huống).\n        *   *Động từ (V):* \"was\" (là).\n        *   *Bổ ngữ (Complement):* \"her first day at the front desk\" (cụm danh từ).\n\n---\n\n### 2. Phân tích Từ vựng (Vocabulary)\n\nDưới đây là các từ vựng cốt lõi trong đoạn văn:\n\n*   **Feedback** (noun) /ˈfiːdbæk/: Ý kiến phản hồi, sự nhận xét, đóng góp ý kiến mang tính xây dựng.\n*   **Adapt** (verb) /əˈdæpt/: Thích nghi, thích ứng (thay đổi hành vi hoặc tư duy để phù hợp với môi trường mới).\n*   **Understandable** (adjective) /ˌʌndərˈstændəbl/: Có thể hiểu được, có thể thông cảm được (hợp lý trong hoàn cảnh đó).\n*   **Front Desk** (noun phrase) /ˌfrʌnt ˈdesk/: Quầy lễ tân, bàn tiếp tân (nơi tiếp đón khách đầu tiên tại một văn phòng, khách sạn hoặc doanh nghiệp).\n\n---\n\n### 3. Phân tích Cụm từ cố định (Collocations)\n\nCác cụm từ tự nhiên và thường đi liền với nhau trong tiếng Anh xuất hiện trong đoạn văn:\n\n*   **Feedback on something:** Nhận xét/phản hồi về vấn đề gì đó (giới từ \"on\" luôn đi kèm sau \"feedback\" để chỉ đối tượng được nhận xét).\n*   **First day (at/in...):** Ngày đầu tiên (làm việc hoặc học tập tại một địa điểm cụ thể).\n*   **At the front desk:** Tại quầy lễ tân (sử dụng giới từ \"at\" để chỉ một vị trí/địa điểm làm việc cụ thể trong tòa nhà).\n*   **A bit slow:** Hơi chậm một chút (sự kết hợp giữa trạng từ giảm nhẹ \"a bit\" và tính từ \"slow\" để giảm bớt sự tiêu cực trong lời nhận xét).\n*   **Slow to do something (slow to adapt):** Chậm trễ/chậm chạp trong việc thực hiện một hành động nào đó.\n\n---\n\n### 4. Phân tích Thành ngữ (Idioms)\n\n*   **Đánh giá:** Trong đoạn văn tối ưu này **không sử dụng thành ngữ (Idioms)**. \n*   **Lý do ngôn ngữ học:** Đây là một văn bản nhận xét công việc mang tính chất chuyên nghiệp, ngắn gọn và trực diện (professional feedback). Việc hạn chế sử dụng thành ngữ giúp thông điệp rõ ràng, tránh gây hiểu lầm và đảm bảo tính chuyên nghiệp, lịch sự trong môi trường công sở."
-        },
-        {
-            "type": "Dịch & Sửa lỗi",
-            "text": "I was out there checking on her throughout the day.\n",
-            "result": "Dưới đây là kết quả phân tích, tối ưu hóa và dịch thuật chi tiết theo đúng các yêu cầu của bạn:\n\n### BƯỚC 1: XÁC ĐỊNH VÀ PHÂN TÍCH NGỮ CẢNH\n- **Thể loại văn bản:** Email báo cáo công việc trong môi trường công sở (gửi cho cấp trên/sếp).\n- **Đối tượng giao tiếp:** Nhân viên gửi cho Sếp (mối quan hệ cấp dưới - cấp trên).\n- **Sắc thái văn phong:** Cần sự **Trang trọng (Formal)**, chuyên nghiệp, khách quan và thể hiện được tinh thần trách nhiệm trong công việc. \n- **Phân tích câu gốc:** Câu gốc *\"I was out there checking on her throughout the day\"* mang sắc thái quá thân mật, suồng sã (informal). Cụm từ \"out there\" quá mơ hồ và không trang trọng; cụm \"checking on her\" nghe giống như đang trông nom trẻ nhỏ hoặc người ốm, chưa thể hiện được tính chất chuyên nghiệp của việc hướng dẫn/giám sát nhân viên mới.\n\n---\n\n### BƯỚC 2: ĐÁNH GIÁ CHUẨN XÁC VÀ NHẤT QUÁN\n- **Ngữ pháp & Chính tả:** Đúng ngữ pháp căn bản.\n- **Văn phong & Ngữ cảnh:** Chưa phù hợp. Từ vựng quá bình dân, thiếu tính chuyên nghiệp cần có của một báo cáo công sở gửi cho sếp.\n- **Kết luận:** **[SAI / CẦN TỐI ƯU]**\n\n---\n\n### BƯỚC 3: CHI TIẾT LỖI SAI VÀ SỬA LỖI\n1. **Cụm từ \"out there\":**\n   - *Lý do:* Đây là khẩu ngữ (colloquialism), không có giá trị thông tin trong một email báo cáo công việc và làm giảm tính trang trọng.\n   - *Khắc phục:* Lược bỏ hoàn toàn.\n2. **Cụm từ \"checking on her\":**\n   - *Lý do:* Diễn đạt quá thông tục. Trong môi trường công sở, khi nói về việc theo sát nhân viên mới, ta nên dùng các thuật ngữ chuyên môn thể hiện sự giám sát, hỗ trợ hoặc đánh giá tiến độ.\n   - *Khắc phục:* Thay thế bằng các cụm từ chuyên nghiệp hơn như: *\"monitoring her progress\"* (theo dõi tiến độ của cô ấy), *\"assisting her with her onboarding\"* (hỗ trợ cô ấy hòa nhập/làm quen công việc), hoặc *\"supporting her\"* (hỗ trợ cô ấy).\n3. **Thì của động từ (Tùy chọn tối ưu):**\n   - *Lý do:* Sử dụng thì Quá khứ tiếp diễn (*was checking*) chỉ đơn thuần mô tả hành động đang diễn ra trong quá khứ. Sử dụng thì Hiện tại hoàn thành tiếp diễn (*have been monitoring*) hoặc Quá khứ đơn (*monitored*) sẽ nhấn mạnh hơn vào kết quả và trách nhiệm hoàn thành công việc tính đến thời điểm viết email.\n\n---\n\n### BƯỚC 4: XUẤT ĐOẠN VĂN TIẾNG ANH CHUẨN\n<EN>I have been closely monitoring her progress and supporting her throughout the day.</EN>\n\n---\n\n### BƯỚC 5: DỊCH THUẬT\n\"Tôi đã theo dõi sát sao tiến độ công việc và hỗ trợ cô ấy trong suốt ngày hôm nay.\""
-        },
-        {
-            "type": "Phân tích (Level 1)",
-            "text": "I have been closely monitoring her progress and supporting her throughout the day.",
-            "result": "Chào bạn, với vai trò là một chuyên gia ngôn ngữ học, tôi xin phân tích đoạn văn tối ưu theo đúng cấp độ Level 1.\n\nDưới đây là phân tích chi tiết cho câu: \n**\"I have been closely monitoring her progress and supporting her throughout the day.\"**\n\n---\n\n### 1. Phân tích Cấu trúc câu (Sentence Structure)\n\nĐây là một câu đơn (Simple Sentence) nhưng có cấu trúc vị ngữ kép (Compound Predicate) được kết nối bằng liên từ đẳng lập \"and\".\n\n*   **Chủ ngữ (Subject - S):** \n    *   **\"I\"** (Đại từ nhân xưng ngôi thứ nhất số ít).\n*   **Vị ngữ (Predicate - V):** \n    *   Hệ thống động từ được chia ở **thì Hiện tại hoàn thành tiếp diễn (Present Perfect Continuous)**: `have been + V-ing`. Thì này nhấn mạnh tính liên tục, kéo dài của hành động từ quá khứ cho đến thời điểm nói.\n    *   **Cấu trúc song hành (Parallel Structure):** Hai động từ dạng V-ing được nối với nhau bằng liên từ **\"and\"**:\n        *   Động từ 1: **\"monitoring\"** (được bổ nghĩa bởi trạng từ **\"closely\"**).\n        *   Động từ 2: **\"supporting\"**.\n*   **Tân ngữ (Object - O):**\n    *   Tân ngữ 1 (O1) cho động từ \"monitoring\": **\"her progress\"** (Cụm danh từ - cụ thể là sự tiến bộ của cô ấy).\n    *   Tân ngữ 2 (O2) cho động từ \"supporting\": **\"her\"** (Đại từ tân ngữ - chỉ cô ấy).\n*   **Trạng ngữ chỉ thời gian (Adverbial of Time):** \n    *   **\"throughout the day\"** (Giới từ \"throughout\" kết hợp với cụm danh từ \"the day\" làm rõ thời gian diễn ra các hành động trên).\n\n---\n\n### 2. Phân tích Từ vựng (Vocabulary)\n\n*   **Monitor** (động từ) /ˈmɒn.ɪ.tər/: Theo dõi, giám sát, quan sát một tiến trình hoặc tình huống một cách cẩn thận trong một khoảng thời gian.\n*   **Progress** (danh từ) /ˈprəʊ.ɡres/: Sự tiến bộ, tiến trình, sự phát triển hướng tới một mục tiêu tốt hơn.\n*   **Support** (động từ) /səˈpɔːt/: Hỗ trợ, giúp đỡ, ủng hộ (về mặt hành động, tinh thần hoặc vật chất).\n*   **Throughout** (giới từ) /θruːˈaʊt/: Suốt, trong suốt (từ đầu đến cuối của một khoảng thời gian hoặc không gian).\n\n---\n\n### 3. Phân tích Cụm từ cố định (Collocations)\n\n*   **Closely monitor** (Trạng từ + Động từ): Theo dõi sát sao, giám sát chặt chẽ. Đây là một collocation rất phổ biến trong môi trường làm việc và học thuật để chỉ việc quan sát không bỏ sót chi tiết.\n*   **Monitor progress** (Động từ + Danh từ): Theo dõi tiến độ, theo dõi sự tiến bộ.\n*   **Throughout the day** (Cụm giới từ): Suốt cả ngày, trong suốt một ngày (nhấn mạnh tính liên tục, không ngắt quãng từ sáng đến tối).\n\n---\n\n### 4. Phân tích Thành ngữ (Idioms)\n\n*   **Không có thành ngữ (Idioms) nào được sử dụng trong câu này.** \n    *   *Giải thích từ góc độ ngôn ngữ học:* Câu văn này được tối ưu hóa theo hướng rõ ràng, chuyên nghiệp và trực diện (literal language). Việc tránh sử dụng thành ngữ giúp câu văn giữ được sự trang trọng, dễ hiểu đối với mọi đối tượng người nghe/đọc, đặc biệt là trong môi trường công sở hoặc sư phạm."
-        }
-    ],
-    "extracted_en_clean": "I have been closely monitoring her progress and supporting her throughout the day."
-}
+[
+  {
+    "id": "1785371642",
+    "title": "I Feel Confused  - Easy English Conversation About Feelings (B1 Level) - YouTube.mp4",
+    "file_type": "video/mp4",
+    "media_path": "saved_media\\1785371642_orig.mp4",
+    "summary_en": "A person expresses concern to their friend about another friend acting distant and not replying to messages. The friend advises them to have a direct and polite conversation instead of overthinking, which makes them feel much better.",
+    "summary_vi": "Một người chia sẻ lo lắng với bạn của mình về việc một người bạn khác dạo này tỏ ra lạnh nhạt và ít trả lời tin nhắn. Người bạn đã khuyên họ nên trò chuyện trực tiếp và lịch sự thay vì suy nghĩ quá nhiều, giúp họ cảm thấy nhẹ nhõm hơn.",
+    "chat_history": [],
+    "data": [
+      {
+        "speaker": "Passenger",
+        "english": "Hey, can I talk to you for a moment?",
+        "vietnamese": "Này, mình có thể nói chuyện với bạn một lát được không?",
+        "audio_path": "saved_media\\1785371642_chunk_0.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Of course. What's wrong?",
+        "vietnamese": "Dĩ nhiên rồi. Có chuyện gì vậy?",
+        "audio_path": "saved_media\\1785371642_chunk_1.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "I feel confused about something.",
+        "vietnamese": "Mình cảm thấy bối rối về một chuyện.",
+        "audio_path": "saved_media\\1785371642_chunk_2.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Tell me. Maybe I can help.",
+        "vietnamese": "Nói mình nghe đi. Biết đâu mình giúp được.",
+        "audio_path": "saved_media\\1785371642_chunk_3.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "My friend is acting strange these days.",
+        "vietnamese": "Dạo này bạn của mình cư xử lạ lắm.",
+        "audio_path": "saved_media\\1785371642_chunk_4.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "What do you mean?",
+        "vietnamese": "Ý bạn là sao?",
+        "audio_path": "saved_media\\1785371642_chunk_5.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "She doesn't reply to my messages like before.",
+        "vietnamese": "Cô ấy không trả lời tin nhắn của mình như trước nữa.",
+        "audio_path": "saved_media\\1785371642_chunk_6.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Did something happen between you two?",
+        "vietnamese": "Có chuyện gì xảy ra giữa hai người à?",
+        "audio_path": "saved_media\\1785371642_chunk_7.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "No. That's why I'm confused.",
+        "vietnamese": "Không có gì cả. Đó là lý do mình thấy bối rối.",
+        "audio_path": "saved_media\\1785371642_chunk_8.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Maybe she is just busy.",
+        "vietnamese": "Có lẽ cô ấy bận thôi.",
+        "audio_path": "saved_media\\1785371642_chunk_9.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "I thought the same, but it feels different.",
+        "vietnamese": "Mình cũng nghĩ vậy, nhưng cảm giác khác lắm.",
+        "audio_path": "saved_media\\1785371642_chunk_10.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Did you try talking to her directly?",
+        "vietnamese": "Bạn đã thử nói chuyện trực tiếp với cô ấy chưa?",
+        "audio_path": "saved_media\\1785371642_chunk_11.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "Not yet. I'm a little nervous.",
+        "vietnamese": "Chưa nữa. Mình hơi lo lắng một chút.",
+        "audio_path": "saved_media\\1785371642_chunk_12.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "You should ask her politely.",
+        "vietnamese": "Bạn nên hỏi cô ấy một cách lịch sự.",
+        "audio_path": "saved_media\\1785371642_chunk_13.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "Yes, I think that's the best way.",
+        "vietnamese": "Ừm, mình nghĩ đó là cách tốt nhất.",
+        "audio_path": "saved_media\\1785371642_chunk_14.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Clear communication helps a lot.",
+        "vietnamese": "Giao tiếp rõ ràng sẽ giúp ích rất nhiều đấy.",
+        "audio_path": "saved_media\\1785371642_chunk_15.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "You're right. I'll talk to her today.",
+        "vietnamese": "Bạn nói đúng. Hôm nay mình sẽ nói chuyện với cô ấy.",
+        "audio_path": "saved_media\\1785371642_chunk_16.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Good. Don't overthink too much.",
+        "vietnamese": "Tốt rồi. Đừng suy nghĩ nhiều quá nhé.",
+        "audio_path": "saved_media\\1785371642_chunk_17.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "Thanks. I feel better now.",
+        "vietnamese": "Cảm ơn nhé. Giờ mình thấy khá hơn rồi.",
+        "audio_path": "saved_media\\1785371642_chunk_18.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Anytime. time.",
+        "vietnamese": "Không có gì đâu.",
+        "audio_path": "saved_media\\1785371642_chunk_19.wav"
+      }
+    ]
+  },
+  {
+    "id": "1785274752",
+    "title": "YT_Hotel_check_in.mp4",
+    "file_type": "video/mp4",
+    "media_path": "saved_media\\1785274752_orig.mp4",
+    "summary_en": "John Smith arrives at the hotel and checks in with the receptionist for a three-night stay. The receptionist verifies his reservation, checks his ID, and provides him with a room key for a city view room on the fifth floor, while also informing him that breakfast is included.",
+    "summary_vi": "John Smith đến khách sạn và làm thủ tục nhận phòng cho kỳ lưu trú ba đêm. Nhân viên lễ tân xác nhận thông tin đặt phòng, kiểm tra giấy tờ tùy thân, bàn giao khóa phòng ở tầng năm có hướng nhìn ra thành phố và thông báo bữa sáng đã được bao gồm trong dịch vụ.",
+    "chat_history": [],
+    "data": [
+      {
+        "speaker": "Receptionist",
+        "english": "Good evening. Welcome to our hotel.",
+        "vietnamese": "Chào buổi tối. Chào mừng quý khách đến với khách sạn của chúng tôi.",
+        "audio_path": "saved_media\\1785274752_chunk_0.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Good evening. I have a reservation.",
+        "vietnamese": "Chào buổi tối. Tôi có đặt phòng trước.",
+        "audio_path": "saved_media\\1785274752_chunk_1.wav"
+      },
+      {
+        "speaker": "Receptionist",
+        "english": "May I have your name, please?",
+        "vietnamese": "Tôi có thể xin tên của quý khách được không?",
+        "audio_path": "saved_media\\1785274752_chunk_2.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Yes, my name is John Smith.",
+        "vietnamese": "Vâng, tên tôi là John Smith.",
+        "audio_path": "saved_media\\1785274752_chunk_3.wav"
+      },
+      {
+        "speaker": "Receptionist",
+        "english": "Thank you. Let me check your reservation.",
+        "vietnamese": "Cảm ơn quý khách. Để tôi kiểm tra thông tin đặt phòng của quý khách.",
+        "audio_path": "saved_media\\1785274752_chunk_4.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Sure.",
+        "vietnamese": "Chắc chắn rồi.",
+        "audio_path": "saved_media\\1785274752_chunk_5.wav"
+      },
+      {
+        "speaker": "Receptionist",
+        "english": "Yes, I found it. You booked a room for three nights.",
+        "vietnamese": "Vâng, tôi đã tìm thấy rồi. Quý khách đã đặt một phòng trong ba đêm.",
+        "audio_path": "saved_media\\1785274752_chunk_6.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "That's correct.",
+        "vietnamese": "Đúng vậy.",
+        "audio_path": "saved_media\\1785274752_chunk_7.wav"
+      },
+      {
+        "speaker": "Receptionist",
+        "english": "May I see your passport or ID?",
+        "vietnamese": "Tôi có thể xem hộ chiếu hoặc giấy tờ tùy thân của quý khách không?",
+        "audio_path": "saved_media\\1785274752_chunk_8.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Of course. Here it is.",
+        "vietnamese": "Tất nhiên rồi. Gửi bạn.",
+        "audio_path": "saved_media\\1785274752_chunk_9.wav"
+      },
+      {
+        "speaker": "Receptionist",
+        "english": "Thank you. Would you like a room with a city view?",
+        "vietnamese": "Cảm ơn quý khách. Quý khách có muốn một phòng có hướng nhìn ra thành phố không?",
+        "audio_path": "saved_media\\1785274752_chunk_10.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Yes, that would be great.",
+        "vietnamese": "Vâng, vậy thì tuyệt quá.",
+        "audio_path": "saved_media\\1785274752_chunk_11.wav"
+      },
+      {
+        "speaker": "Receptionist",
+        "english": "Breakfast is included with your stay.",
+        "vietnamese": "Bữa sáng đã được bao gồm trong thời gian lưu trú của quý khách.",
+        "audio_path": "saved_media\\1785274752_chunk_12.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "That's good to know.",
+        "vietnamese": "Thật tốt khi biết điều đó.",
+        "audio_path": "saved_media\\1785274752_chunk_13.wav"
+      },
+      {
+        "speaker": "Receptionist",
+        "english": "Here is your room key. Your room is on the fifth floor.",
+        "vietnamese": "Đây là khóa phòng của quý khách. Phòng của quý khách ở tầng năm.",
+        "audio_path": "saved_media\\1785274752_chunk_14.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Thank you very much.",
+        "vietnamese": "Cảm ơn bạn rất nhiều.",
+        "audio_path": "saved_media\\1785274752_chunk_15.wav"
+      },
+      {
+        "speaker": "Receptionist",
+        "english": "Enjoy your stay.",
+        "vietnamese": "Chúc quý khách có một kỳ nghỉ vui vẻ.",
+        "audio_path": "saved_media\\1785274752_chunk_16.wav"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Thank you.",
+        "vietnamese": "Cảm ơn bạn.",
+        "audio_path": "saved_media\\1785274752_chunk_17.wav"
+      }
+    ]
+  },
+  {
+    "id": "1785308766",
+    "title": "At the air check-in counter.mp4",
+    "file_type": "video/mp4",
+    "media_path": "saved_media\\1785308766_orig.mp4",
+    "summary_en": "A first-time flyer checks in for their flight to London, where they will study for a year. The check-in agent assists them with an overweight baggage issue, validates their window seat choice, and provides clear directions to their departure gate.",
+    "summary_vi": "Một hành khách lần đầu đi máy bay làm thủ tục check-in cho chuyến bay đến London để du học một năm. Nhân viên làm thủ tục đã giúp giải quyết vấn đề hành lý quá cân, xác nhận lựa chọn ghế cạnh cửa sổ và hướng dẫn chi tiết đường đi đến cổng khởi hành.",
+    "chat_history": [],
+    "data": [
+      {
+        "speaker": "Check-in Agent",
+        "english": "Hello, may I see your passport please?",
+        "vietnamese": "Xin chào, tôi có thể xem hộ chiếu của bạn được không?",
+        "audio_path": "saved_media\\1785308766_chunk_0.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "Here you go.",
+        "vietnamese": "Của bạn đây.",
+        "audio_path": "saved_media\\1785308766_chunk_1.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Thank you. And where are you flying with us today?",
+        "vietnamese": "Cảm ơn bạn. Hôm nay bạn sẽ bay cùng chúng tôi đến đâu?",
+        "audio_path": "saved_media\\1785308766_chunk_2.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "I'm going to London. I'll be studying there for a year.",
+        "vietnamese": "Tôi sẽ đi London. Tôi sẽ học tập ở đó trong một năm.",
+        "audio_path": "saved_media\\1785308766_chunk_3.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "How fun! That sounds like a great trip. I see your information right here. Are you checking any bags today?",
+        "vietnamese": "Thật thú vị! Nghe có vẻ là một chuyến đi tuyệt vời. Tôi đã thấy thông tin của bạn ngay đây rồi. Hôm nay bạn có ký gửi hành lý nào không?",
+        "audio_path": "saved_media\\1785308766_chunk_4.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "Yes. Just one.",
+        "vietnamese": "Có. Chỉ một chiếc thôi.",
+        "audio_path": "saved_media\\1785308766_chunk_5.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Perfect. If you could place it on the scale for me, that would be great.",
+        "vietnamese": "Tuyệt vời. Nếu bạn có thể đặt nó lên cân giúp tôi thì tốt quá.",
+        "audio_path": "saved_media\\1785308766_chunk_6.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "Here you go.",
+        "vietnamese": "Của bạn đây.",
+        "audio_path": "saved_media\\1785308766_chunk_7.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Thank you. Hmm, it appears your bag is just a bit too heavy. It is over our weight requirement. Perhaps you could take something out of your bag and put it in your carry-on bag.",
+        "vietnamese": "Cảm ơn bạn. Hừm, có vẻ như hành lý của bạn hơi nặng một chút. Nó vượt quá yêu cầu về trọng lượng của chúng tôi. Có lẽ bạn có thể lấy thứ gì đó ra khỏi túi và bỏ vào hành lý xách tay.",
+        "audio_path": "saved_media\\1785308766_chunk_8.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "Yes, I'll take this big book out of the bag. No problem.",
+        "vietnamese": "Vâng, tôi sẽ lấy cuốn sách lớn này ra khỏi túi. Không vấn đề gì.",
+        "audio_path": "saved_media\\1785308766_chunk_9.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Great. Now your bag is ready to be checked. And I see you've chosen a window seat. Is that still okay for you?",
+        "vietnamese": "Tuyệt vời. Bây giờ hành lý của bạn đã sẵn sàng để ký gửi. Và tôi thấy bạn đã chọn một chỗ ngồi cạnh cửa sổ. Lựa chọn đó vẫn ổn với bạn chứ?",
+        "audio_path": "saved_media\\1785308766_chunk_10.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "I think so. I've never flown before, so I thought it would be nice to look out at the clouds. Do you think it will be a good seat for me?",
+        "vietnamese": "Tôi nghĩ vậy. Tôi chưa từng đi máy bay bao giờ, vì vậy tôi nghĩ sẽ rất tuyệt nếu được ngắm nhìn những đám mây. Bạn có nghĩ đó là một chỗ ngồi tốt cho tôi không?",
+        "audio_path": "saved_media\\1785308766_chunk_11.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "This is your first flight? Well, that's fantastic! You're going to love it! And yes, I think the window seat is an excellent choice for you then. Let me print your boarding pass and you'll be ready to go.",
+        "vietnamese": "Đây là chuyến bay đầu tiên của bạn sao? Ồ, thật tuyệt vời! Bạn sẽ thích nó cho mà xem! Và đúng vậy, tôi nghĩ ghế cạnh cửa sổ là một lựa chọn xuất sắc cho bạn đấy. Để tôi in thẻ lên máy bay cho bạn và bạn sẽ sẵn sàng khởi hành.",
+        "audio_path": "saved_media\\1785308766_chunk_12.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "Okay.",
+        "vietnamese": "Được rồi.",
+        "audio_path": "saved_media\\1785308766_chunk_13.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "Here it is, you're all set.",
+        "vietnamese": "Đây rồi, mọi thứ đã sẵn sàng.",
+        "audio_path": "saved_media\\1785308766_chunk_14.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "Thanks.",
+        "vietnamese": "Cảm ơn.",
+        "audio_path": "saved_media\\1785308766_chunk_15.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "You're going to depart from Terminal C, Gate 54.",
+        "vietnamese": "Bạn sẽ khởi hành từ Nhà ga C, Cổng 54.",
+        "audio_path": "saved_media\\1785308766_chunk_16.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "When do I need to be there?",
+        "vietnamese": "Khi nào tôi cần phải có mặt ở đó?",
+        "audio_path": "saved_media\\1785308766_chunk_17.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "You should get to your gate about one hour before departure.",
+        "vietnamese": "Bạn nên đến cổng của mình khoảng một tiếng trước giờ khởi hành.",
+        "audio_path": "saved_media\\1785308766_chunk_18.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "And how do I get to the gate?",
+        "vietnamese": "Và làm thế nào để tôi đi đến cổng đó?",
+        "audio_path": "saved_media\\1785308766_chunk_19.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "You will turn left at the coffee shop. Security will be directly in front of you. Once you're finished clearing security, follow the signs to gate 54. It will be on your right.",
+        "vietnamese": "Bạn rẽ trái ở quán cà phê. Khu vực an ninh sẽ ở ngay trước mặt bạn. Sau khi hoàn tất kiểm tra an ninh, hãy đi theo biển chỉ dẫn đến cổng 54. Nó sẽ nằm ở phía bên phải của bạn.",
+        "audio_path": "saved_media\\1785308766_chunk_20.wav"
+      },
+      {
+        "speaker": "Passenger",
+        "english": "Thank you so much for your help.",
+        "vietnamese": "Cảm ơn bạn rất nhiều vì sự giúp đỡ.",
+        "audio_path": "saved_media\\1785308766_chunk_21.wav"
+      },
+      {
+        "speaker": "Check-in Agent",
+        "english": "You're very welcome. Enjoy your flight!",
+        "vietnamese": "Không có gì đâu. Chúc bạn có một chuyến bay vui vẻ!",
+        "audio_path": "saved_media\\1785308766_chunk_22.wav"
+      }
+    ]
+  }
+]
