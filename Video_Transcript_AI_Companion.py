@@ -347,24 +347,24 @@ if uploaded_file:
                 {transcript_text}
 
                 Nhiệm vụ:
-1. Dựa vào nội dung và ngữ cảnh, hãy tách từng lượt thoại riêng biệt giữa hai người.
-2. TUYỆT ĐỐI KHÔNG gộp câu trả lời của người khác vào cùng một Speaker. Mỗi khi đổi người nói (như hỏi/đáp), BẮT BUỘC phải tạo một Speaker mới (Speaker A, Speaker B).
-3. Tóm tắt nội dung chính bài hội thoại bằng cả tiếng Anh và tiếng Việt.
+    1. Dựa vào danh sách các câu thoại bên trên, hãy dịch sang tiếng Việt và gán đúng Speaker cho từng câu.
+    2. TUYỆT ĐỐI KHÔNG GỘP CÁC ID KHÁC NHAU. Mỗi lượt thoại chỉ chứa đúng 1 ID duy nhất (start_id phải bằng end_id).
+    3. Tóm tắt nội dung chính bài hội thoại bằng cả tiếng Anh và tiếng Việt.
 
-                Trả về duy nhất JSON dạng:
-                {{
-                  "summary_en": "Tóm tắt ngắn gọn bài hội thoại bằng tiếng Anh",
-                  "summary_vi": "Tóm tắt ngắn gọn bài hội thoại bằng tiếng Việt",
-                  "grouped_data": [
-                    {{
-                      "speaker": "Check-in Agent",
-                      "start_id": 0,
-                      "end_id": 2,
-                      "english": "Văn bản tiếng Anh lượt nói",
-                      "vietnamese": "Dịch tiếng Việt lượt nói"
-                    }}
-                  ]
-                }}
+    Trả về duy nhất JSON dạng:
+    {{
+      "summary_en": "Tóm tắt ngắn gọn bài hội thoại bằng tiếng Anh",
+      "summary_vi": "Tóm tắt ngắn gọn bài hội thoại bằng tiếng Việt",
+      "grouped_data": [
+        {{
+          "speaker": "Speaker A",
+          "start_id": 0,
+          "end_id": 0,
+          "english": "Văn bản tiếng Anh lượt nói",
+          "vietnamese": "Dịch tiếng Việt lượt nói"
+        }}
+      ]
+    }}
                 """
 
                 response = client.models.generate_content(
