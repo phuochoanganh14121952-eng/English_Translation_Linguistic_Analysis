@@ -8,6 +8,23 @@ from streamlit_mic_recorder import mic_recorder
 st.set_page_config(
     page_title="AI Pronunciation & Speaking Tutor", layout="wide"
 )
+# Ô nhập API Key tại Sidebar
+with st.sidebar:
+  st.header("⚙️ Cấu hình API")
+  default_key = st.secrets.get("GEMINI_API_KEY", "")
+  user_api_key = st.text_input(
+      "Nhập Google Gemini API Key:",
+      value=default_key,
+      type="password",
+      help="Lấy API key tại https://aistudio.google.com/",
+  )
+
+  if not user_api_key:
+    st.warning("⚠️ Vui lòng nhập Gemini API Key!")
+    st.stop()
+  else:
+    genai.configure(api_key=user_api_key)
+    st.success("✅ Đã kết nối API Key")
 st.title("🎙️ AI Pronunciation & Speaking Tutor")
 st.subheader("Luyện phát âm, Trợ lý AI Companion & Quản lý Lịch sử")
 
